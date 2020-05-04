@@ -1,12 +1,10 @@
-# Your First Program
+# Your First Webpage
 
-Alright, the moment you've been waiting for!  Let's get to coding.  The first thing you'll need is a code editor.  
+Alright, the moment you've been waiting for!  Let's get to writing out code.  The first thing you'll need is a code editor.  
 
-So let's download and install Visual Studio Code.  You'll also want to enable a few extensions for Visual Studio Code, including syntax highlighting and enabling the PATH command to allow you to run `code` from the command line to open a project with the editor.   
+So let's download and install [Visual Studio Code](https://code.visualstudio.com/), the recommended code editor for our course.  You'll also want to enable a few extensions for Visual Studio Code, including syntax highlighting and enabling the PATH command to allow you to run `code` from the command line to open a project with the editor. [Instructions](https://code.visualstudio.com/docs/setup/mac).
 
-Instructions **here**.
-
-Navigate over to your command line and type out the following:
+**Navigate over to your command line and type out the following.  Replace `<home>` with your own home folder's name, so for example `cd /Users/vijay/Programming` would be what I'd type:**
 
 ```
 cd /Users/<home>/Programming
@@ -14,9 +12,15 @@ touch index.html
 code index.html
 ```
 
-We are creating a file called `index.html`.  HTML (Hypertext Markup Language) is a special language that a browser like Google Chrome, Firefox, Safari, Edge, and Internet Explorer can open up, and then display its contents to you.   
+We are creating a file called `index.html`.  
 
-Many people like the HTML language because it's really easy to learn.  For the most part, you type whatever you want to display in plain English, wrapped by HTML tags that indicate how you either want to style or draw attention to that content.
+## Intro to HTML
+
+HTML (Hypertext Markup Language) is a special language that you write into an HTML document identified by the `.html` extension, in which a browser like Google Chrome can open up, and then display its contents to you.  To view your HTML document in a browser, you could simply navigate to the file in whatever folder you saved it in, and double click on it, which should launch your default browser.
+
+Many people like the HTML language because it's really easy to learn and feels just like writing normal English with a little bit of code syntax to "mark up content".  **Note:** You can write any in any speaking language you like and mark it up with HTML, so Japanese, Chinese, Russian, etc all work with HTML markup.  
+
+For the most part, you type whatever you want to display in plain English, wrapped by HTML tags `<>` that indicate how you either want to style or draw attention to that content.
 
 For example if I write:
 
@@ -24,9 +28,15 @@ For example if I write:
 <em>Hello World</em>
 ```
 
-Copy this code and paste it into your `index.html` file now open with Visual Studio Code.  Save the file, then navigate over to it using your Finder or Windows Explorer, and open the file with Google Chrome.  You should see Hello World in a fun italic font.
+#### Output
 
-I'm telling the browser I want to show `Hello World` on my new page, and wrap it inside a emphasis tag, indicated by an opening tag `<em>` and a closing tag `</em>`.  Anything outside of the tag will not get the special emphasis styling.  HTML is always indicated by angular brackets, so `<>` followed by `</>` is usually a HTML tag.  Inside the angular brackets you also write what kind of tag you want to make, so for example:  `<b>Some content</b>`, means bold Some content.
+<em>Hello World</em>
+
+This code will emphasize the words Hello World using HTML tag syntax.
+
+Copy this code and paste it into your `index.html` file now open with Visual Studio Code.  Save the file, then navigate over to it using your Finder or Windows Explorer, and open the file with Google Chrome.  You should see Hello World in a fun, italic font.
+
+I'm telling the browser I want to show `Hello World` on my new page, and wrap it inside a emphasis tag, indicated by an opening tag `<em>` and a closing tag `</em>`.  Anything outside of the tag will not get the special emphasis styling.  HTML is always indicated by angular brackets, so `<>` followed by `</>` is usually a HTML tag.  Inside the angular brackets you also write what kind of tag you want to make, so for example:  `<b>Some content</b>`, means bold **Some content**.
 
 ## More Examples:
 
@@ -38,6 +48,13 @@ Try the following as exercises, save in your index.html file with Visual Studio 
 <p>Here's a third paragraph for my beautiful essay.  Did you like the separation?</p>
 ```
 
+#### Output
+
+<p>Here is my first paragraph for my beautiful essay.  Blah blah blah...</p>
+<p>Here's a second paragraph for my beautiful essay. Blah blah blah</p>
+<p>Here's a third paragraph for my beautiful essay.  Did you like the separation?</p>
+
+
 Use `<p>` tags to make paragraphs, to indicate new paragraphs like when writing a long blog post.  
 
 
@@ -46,6 +63,12 @@ Use `<p>` tags to make paragraphs, to indicate new paragraphs like when writing 
 <p><a href="https://apple.com">This is a link to Apple.com</a></p>
 <p><a href="https://facebook.com">This is a link to Facebook.com</a></p>
 ```
+
+#### Output
+
+<p><a href="https://google.com">This is a link to Google.com</a></p>
+<p><a href="https://apple.com">This is a link to Apple.com</a></p>
+<p><a href="https://facebook.com">This is a link to Facebook.com</a></p>
 
 Notice first that we can have tags inside tags.  The `<p>` tag wraps the `<a>` tag (link tag).  This is a common practice.  You can have tags inside tags, often called nested tags.
 
@@ -65,6 +88,16 @@ You must wrap your URL in quotes `"` before and after the url ends, and you must
 <h6>This is the smallest sub-heading tag you can have</h6>
 ```
 
+#### Output
+
+<h1>This is our page's main heading tag.</h1>
+<h2>This a secondary heading tag.</h2>
+<h3>This is a sub-heading tag.</h3>
+<h4>This is a smaller sub-heading tag.</h4>
+<h5>This is an even smaller sub-heading tag.</h5>
+<h6>This is the smallest sub-heading tag you can have</h6>
+
+
 Heading tags are used to mark important content on your page.  Usually the `<h1>` tag is for the most important item on your page, such as a page title aka `Use this weird trick to lose fat in 5 minutes a day!`.   You can also have sub-headings and smaller sub-headings to guide the reader to more sections of your page.
 
 ```html
@@ -81,6 +114,22 @@ Heading tags are used to mark important content on your page.  Usually the `<h1>
     <li>Cafe Latte</li>
 </ol>
 ```
+
+#### Output
+
+<h2>Things to do</h2>
+<ul>
+    <li>Drive to work</li>
+    <li>Check emails</li>
+    <li>Fix website</li>
+</ul>
+<h2>Favorite Drinks</h2>
+<ol>
+    <li>Caramel Macchiato</li>
+    <li>Earl Grey Tea</li>
+    <li>Cafe Latte</li>
+</ol>
+
 
 List tags that start with `<ul>` or `<ol>` allow us to mark up our English with bullets, giving us output that looks more like a list.  Use list tags to help make things like todo lists.  The `<ul>` tag is for lists with no order, hence you just see bullets.  The `<ol>` tag is for lists with order, so you'll see numbers instead.
 
@@ -105,6 +154,27 @@ List tags that start with `<ul>` or `<ol>` allow us to mark up our English with 
 </table>
 ```
 
+#### Output
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jessie</td>
+            <td>jessie@rocket.com</td>
+        </tr>
+        <tr>
+            <td>James</td>
+            <td>james@rocket.com</td>
+        </tr>
+    </tbody>
+</table>
+
 This markup is used to make a table with HTML.  This code is a little more involved, so let's break it down.  You start a table with the `<table>` opening tag and end it with the `</table>` closing tag to indicate you want a table.   Inside the table, you need a section for a row that describes each column, usually the header row which indicates rows that follow will be organized by some value.  Here we are saying we have we want to organize our data by `Name` and `Email`.  So we first create the special header with the `<head>` tag, then inside we make a new row with the `<tr>` (table row) tag, and then we create a table heading column tag `<th>` for each column we want to have.   Again, all this reads more complex than it really is. 
 
 Next, we have the main body of the table, which is for rows and columns that follow after our special heading row.  These rows and columns are for actual data, like names and emails.  We create the body of the table by using `<tbody>` for table body, then create a new row again using `<tr>`, then a table display column `<td>` for our actual values like `Jessie` and `jessie@rocket.com` which correspond to `Name` and `Email` above.
@@ -120,6 +190,10 @@ A tricky feature about HTML that throws off some students of web development is 
 <hr />
 ```
 
+#### Output
+
+<hr />
+
 Some developers will drop the `/>` and just write `<hr>` but it's important to know that this is still a self closing tag.
 
 Here's another self-closing tag:
@@ -128,6 +202,10 @@ Here's another self-closing tag:
 <img src="https://images.unsplash.com/photo-1542887486-c0aeb6d2fc46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" width="320" height="240" />
 ```
 
+#### Output
+
+<img src="https://images.unsplash.com/photo-1542887486-c0aeb6d2fc46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" width="320" height="240" />
+
 The `<img>` tag closes itself as you notice again by the `/>` ending.  The image tag is used to show an image, but to actually show an image, you have to feed it an image URL (just like we did for the link tag `<a>` earlier).  In this case you would use the `src` attribute instead of the `href` attribute.   `src` is for images, while `href` is for links.  I made this example more interesting by adding two more attributes, one for `width` and one for `height`, set in pixels on the screen -- so a width of `320` pixels by `240` pixels high.
 
 We will explore more attributes for HTML tags, but again think of these attributes as things that augment your HTML.  Without augmentation, your content would be non-interactive.  It's this interactivity that makes using the web better for reading than reading an actual textbook.
@@ -135,6 +213,10 @@ We will explore more attributes for HTML tags, but again think of these attribut
 ```html
 <br />
 ```
+
+#### Output
+
+<br />
 
 A line break tag, use this when you want to split a line into two exactly.  Commonly used for formatting addresses like so:
 
@@ -145,6 +227,14 @@ A line break tag, use this when you want to split a line into two exactly.  Comm
 <br />00000-000
 </p>
 ```
+
+#### Output
+
+<p>My house
+<br />123 Fake St
+<br />Fake city, FK
+<br />00000-000
+</p>
 
 Notice this is a paragraph `<p>` with 3 line breaks `<br />` inside.
 
