@@ -64,7 +64,7 @@ Be aware of what you are downloading to your computer as well, if you browse the
 
 ### ProTip
 
-Over the years, Microsoft, Apple, Linux have made it easier to find your Applications/Programs folders.  You most likely know you can use the Start Bar on Windows to find any Program quickly, but with Windows 10 you can just type into the Search Bar whatever program you are looking for.   With MacOS you can use Spotlight to help you find a program fast.  Linux also has similar features which you can add in through a package manager, so if you are missing it, search online for directions on how to enable the features.  
+Over the years, Microsoft, Apple, Linux have made it easier to find your Applications/Programs folders.  You most likely know you can use the Start Bar on Windows to find any Program quickly, but with Windows 10 you can just type into the Search Bar whatever program you are looking for.   With MacOS you can use [Spotlight](https://support.apple.com/en-us/HT204014) to help you find a program fast.  Linux also has similar features which you can add in through a package manager, so if you are missing it, search online for directions on how to enable the features.  
 
 As long as you can find your files, folders and applications fast -- you are in good shape for the rest of this course. Be sure you are extremely comfortable with the basics of files and folders.  In the next few chapters, we will learn about programming file types especially the `.html`, `.css` and `.js` file types you will use to code webpages.  Stay tuned!
 
