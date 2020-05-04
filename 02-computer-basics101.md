@@ -64,7 +64,7 @@ Be aware of what you are downloading to your computer as well, if you browse the
 
 ### ProTip
 
-Over the years, Microsoft, Apple, Linux have made it easier to find your Applications/Programs folders.  You most likely know you can use the Start Bar on Windows to find any Program quickly, but with Windows 10 you can just type into the Search Bar whatever program you are looking for.   With MacOS you can use [Spotlight](https://support.apple.com/en-us/HT204014) to help you find a program fast.  Linux also has similar features which you can add in through a package manager, so if you are missing it, search online for directions on how to enable the features.  
+Over the years, Microsoft, Apple, Linux have made it easier to find your Applications/Programs folders.  You most likely know you can use the Start Bar on Windows to find any Program quickly, but with Windows 10 you can just [type into the Search Bar](https://support.microsoft.com/en-us/help/17190/windows-10-search-for-anything) whatever program you are looking for.   With MacOS you can use [Spotlight](https://support.apple.com/en-us/HT204014) to help you find a program fast.  Linux also has similar features which you can add in through a package manager, so if you are missing it, search online for directions on how to enable the features.  
 
 As long as you can find your files, folders and applications fast -- you are in good shape for the rest of this course. Be sure you are extremely comfortable with the basics of files and folders.  In the next few chapters, we will learn about programming file types especially the `.html`, `.css` and `.js` file types you will use to code webpages.  Stay tuned!
 
@@ -77,7 +77,7 @@ So if you open up a program and let it run, it's actively consuming your compute
 
 The best thing to do is to quit applications you don't need.  Simply close the program on Windows, if you are on a Mac, right click on any open Application and select Quit Application (closing doesn't actually close the program).  By making sure you close the program, RAM is freed up and your computer can run faster again.  If you are using Google Chrome and have multiple tabs open, quit some of the tabs by closing them.  
 
-If you ever feel your computer is running slow, you can use a program called Windows Task Explorer, or Mac/Linux (Activity Monitor) to see which programs are consuming a lot of RAM, CPU.  Usually this information is shown in easy to understand graphs and percentages, so if some program is really slowing down your computer and you see that in the Activity Monitor or Task Explorer, quit the program!  Save your computer's resources!
+If you ever feel your computer is running slow, you can use a program called [Windows Task Manager](https://www.tenforums.com/tutorials/2938-open-task-manager-windows-10-a.html), or Mac/Linux ([Activity Monitor](https://support.apple.com/en-us/HT201464)) to see which programs are consuming a lot of RAM, CPU.  Usually this information is shown in easy to understand graphs and percentages, so if some program is really slowing down your computer and you see that in the Activity Monitor or Task Manager, quit the program!  Save your computer's resources!
 
 ## Homework
 
