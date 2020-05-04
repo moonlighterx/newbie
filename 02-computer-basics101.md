@@ -10,9 +10,9 @@ You use a computer to store information.  Fundamentally, this is why we even hav
 
 For example, many people take photos and videos on a camera or cellphone and then view them later on a computer in one of the following formats: `jpeg`, `png`, `jpg`, `mov`, `wmv`, `mp4` on software like Adobe Photoshop or Quicktime.  Technically any of these photos or videos are bits of information stored to the computer as files.  Usually a file is saved as something like `MY_MOVIE.mp4` or `MY_IMAGE.jpg`.  The convention is `<filename>.<extension>`.  So you would name the `filename`, and the `.extension` would indicate what kind of file format it was.  
 
-Sometimes you need to save the file with extension type, other times your computer does it for you.  When in doubt, save the file as the extension YOU WANT it to be in.
+Sometimes you need to save the file with an extension type, other times your computer does it for you.  **When in doubt, save the file with an extension, so you know exactly what kind of file it is.**
 
-If you are saving an image to your computer, it makes sense to save it as a `jpg` or `png` file, and not a `mov` or `mp4` file -- as those extensions are for video.   If you aren't sure, you can always research online what an extension means with a simple search.
+If you are saving an image to your computer, it makes sense to save it as a `jpg` or `png` file, and not a `mov` or `mp4` file -- as those extensions are for video.   If you aren't sure, you can always research online what any extension means with your favorite search engine.
 
 ## What Are Folders?
 
@@ -46,9 +46,11 @@ For our purposes, we will want to make a new folder inside our `Home` folder cal
 
 From here on out, whatever code examples we work on, please save them to the `Programming` folder.  Until you are ready, do not save any coding projects in a folder anywhere else on your computer, especially `Desktop`.  Though this could be easier to access for you, we want to stay organized.
 
-# By The Way, Where's The Applications Folder? (Programs on Windows)
+## By The Way, Where's The Applications Folder? (Programs on Windows)
 
-Can you locate a folder called Applications (if you are on Mac/Linux), or a folder called Programs if you are on Windows?  Normally this folder is outside your Home folder.   To get to it you will need to navigate outside your Home folder, as well as outside your Users folder, and return to your "Hard Drive" folder, often called root drive or `C:` drive.   From here, you need to look for your `Programs` or `Applications` folder.
+### Can you locate a folder called Applications (if you are on Mac/Linux), or a folder called Programs if you are on Windows?  
+
+Normally this folder is outside your Home folder.   To get to it you will need to navigate outside your Home folder, as well as outside your Users folder, and return to your "Hard Drive" folder, often called root drive or `C:` drive.   From here, you need to look for your `Programs` or `Applications` folder.
 
 You might be wondering why your `Programs` / `Applications` live outside your `Home` folder.  You might also be tempted to move them to your new Home folder to stay organized.  **DON'T DO THIS.**
 
@@ -58,13 +60,13 @@ In fact, breaking organization outside your Home folder was the number one reaso
 
 Be aware of what you are downloading to your computer as well, if you browse the Internet often and are prompted to download files or folders that you've never heard about -- be extremely careful, it could be a virus.   Some websites may even prompt you that you need to install software to view the website, or that your computer is running slow and you need to install software to fix it.  Don't do this ever, and only download software from places you trust like the Apple App Store, Windows Store or have researched and verified as legit software through search engine results.  Websites don't need extra software in this day and age to be viewable as we will learn.   
 
-TL:DR, All you need to know is how to find a particular app in those folders and open it.  For example if I said, find Google Chrome, the goal would be that you could locate it easily, open it and not break anything else in the process.  
+**TL:DR**, All you need to know is how to find a particular app in those folders and open it.  For example if I said, find Google Chrome, the goal would be that you could locate it easily, open it and not break anything else in the process.  
 
 ### ProTip
 
 Over the years, Microsoft, Apple, Linux have made it easier to find your Applications/Programs folders.  You most likely know you can use the Start Bar on Windows to find any Program quickly, but with Windows 10 you can just type into the Search Bar whatever program you are looking for.   With MacOS you can use Spotlight to help you find a program fast.  Linux also has similar features which you can add in through a package manager, so if you are missing it, search online for directions on how to enable the features.  
 
-As long as you can find your files, folders and applications fast -- you are in good shape for the rest of this course. Be sure you are extremely comfortable with the basics of files and folders.  In the next chapter we will learn about programming file types especially the `.html`, `.css` and `.js` file types you will use to code webpages.  Stay tuned!
+As long as you can find your files, folders and applications fast -- you are in good shape for the rest of this course. Be sure you are extremely comfortable with the basics of files and folders.  In the next few chapters, we will learn about programming file types especially the `.html`, `.css` and `.js` file types you will use to code webpages.  Stay tuned!
 
 
 ## One More Thing
@@ -86,7 +88,6 @@ If you ever feel your computer is running slow, you can use a program called Win
 - Continue to clean up your computer, if it has files and folders all over the place, try to organize them now given what you learned.
 - What file types are music files usually in? 
 - Do you have files and folders on other drives of your computer?  How about files and folders on USB Drives?  External hard drives?  Dropboxes?  Are these files and folders organized too?
-- 
 
 
 
