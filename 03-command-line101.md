@@ -2,9 +2,9 @@
 
 Before we start programming, you need to be comfortable finding files and folders on your computer (as mentioned in Computer Basics 101).   Most people are usually fine finding files and folders the normal way, using the Start Bar then searching for the Home directory and clicking around until they find their Programming folder.
 
-Sometimes you'll hear programmers call this "normal" way of finding files and folders, the "graphical user interface" way of finding things, aka "GUI way".  
+Sometimes you'll hear programmers call this "normal" way of finding files and folders, the **"graphical user interface"** way of finding things, aka **"GUI way"**.  
 
-In the world of programming however, most programmers do things the "Terminal" or "Command Line" way.  
+In the world of programming however, most programmers do things the "Terminal" or **"Command Line" way**.  
 
 Rather than using your Start bar or Dock to look for files and folders with a mouse, you will interface with a simple application called a terminal, shell or command prompt. (For simplicity we'll call this application a command line or shell).
 
