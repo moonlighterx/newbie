@@ -57,12 +57,19 @@ For our course, we are going to use the Linux/UNIX standard to work through our 
 Let's finish up this chapter by introducing some more commands.
 
 `ls` - List all files and folders in my present folder (directory)
+
 `cd` - Change directory (by itself returns us to root folder)
+
 `cd /Users/<homefolder>` - Whenever you see `<>`, replace that with your file/folder.  Here we are changing directory to the home folder under the path/address `/Users/<homefolder>`
+
 `cd ..` - Go back one folder 
+
 `pwd` - Show me the present working directory (folder I'm in)
+
 `mkdir <myFolder>` - Make a directory called `myFolder` (Again any name you want).
+
 `touch <myFile>.<extension>` - Create a file called `myFile.ext` (`myFile.txt`).
+
 
 We'll learn more commands with time, but for now these are the basics.  At this point you should be able to navigate a little bit between files and folders on your computer and see what's inside.  You can also make directories and new files without having to leave the command line, which you might note is useful -- as you get skilled, you can make new files and folders just through this app, rather than do it manually with your mouse and keyboard.   You'll also be able to delete files and folders just as fast.  
 
