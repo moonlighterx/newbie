@@ -87,6 +87,9 @@ If you ever feel your computer is running slow, you can use a program called [Wi
 - Close your Windows Explorer or Finder.  Try to find your Programming folder again.
 - Continue to clean up your computer, if it has files and folders all over the place, try to organize them now given what you learned.
 - What file types are music files usually in? 
+- Why is it a bad idea to download and install programs from a website?
+- Where should you download new apps and software typically?
+- How do computer viruses ruin your computer?
 - Do you have files and folders on other drives of your computer?  How about files and folders on USB Drives?  External hard drives?  Dropboxes?  Are these files and folders organized too?
 
 
