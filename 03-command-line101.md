@@ -50,7 +50,7 @@ In a word, competition.  For a long time, both these companies wanted to do thin
 
 The Linux standard of typing commands like `ls` and using `/` forward-slashes has now become the de-facto way to work with files and folders, especially when doing programming and web development.   Microsoft realized this and so now they support Linux commands too, if you prefer them.
 
-For our course, we are going to use the Linux/UNIX standard to work through our files and folders.  If you are on Windows, you can be sure your machine supports this standard by downloading and installing an app called **Git SCM**.  You will want to also want to make sure you enable Unix Style Commands for Command Prompt, so that you can work from Command Prompt with the same commands we use.  (Otherwise you'll have to use another app called Git Bash which tends to be less useful).
+For our course, we are going to use the Linux/UNIX standard to work through our files and folders.  If you are on Windows, you can be sure your machine supports this standard by downloading and installing an app called **[Git SCM](https://git-scm.com/)**.  You will want to also want to make sure you enable Unix Style Commands for Command Prompt, so that you can work from Command Prompt with the same commands we use.  (Otherwise you'll have to use another app called Git Bash which tends to be less useful).
 
 ### Now That We Are All On The Same Page
 
