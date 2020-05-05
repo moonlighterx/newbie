@@ -22,6 +22,8 @@ I'll assume you are like me though and don't know that much about design other t
 
 Here's a layout I came up with.  It's not the world's prettiest but it gets the job done.
 
+![alt text](simple-resume-layout.jpg "Resume Layout")
+
 ### Now You Need To Code It Up
 
 We're skipping the artist part here for now.  We don't need pretty, we just need to have this same layout available as a digital file.   What better file to use than HTML?
