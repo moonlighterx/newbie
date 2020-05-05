@@ -14,11 +14,13 @@ Your layout is your savior.  It's a lot easier to draw something in 15 minutes w
 
 ### Have 3-5 References of Other Designs the Client Likes
 
-Before you start working on the design, you need to know what the client likes.  Ask them directly what they like, and for 3-5 examples.  If you are your own client, go find 3-5 websites you like that represent the type of design you would like to make.  You can also check out design ideas on sites like [Pinterest.com](https://pinterest.com), [Instagram.com](https://instagram.com) and [Themeforest](https://themeforest.net/).  In addition, there are a lot of tutorials offered by companies like Adobe, Canva and Figma who can give you even more ideas for inspiration.   
+Before you start working on the design, you need to know what the client likes.  Ask them directly what they like, and for 3-5 examples.  If you are your own client, go find 3-5 websites you like that represent the type of design you would like to make.   
 
 ### Study The Trends
 
 You can also study trends for the industry you are interested in working in.  If you want to work in fashion, study all the fashion websites out there and find out which websites do it the best.  This might feel overwhelming, but your job today isn't to become the top website in fashion.  All you need to do is learn a few things you can take back to your own design.  **Through practice and more studying, you can make your future designs incrementally better.**
+
+Also check out design ideas on sites like [Pinterest.com](https://pinterest.com), [Instagram.com](https://instagram.com) and [Themeforest](https://themeforest.net/).  In addition, there are a lot of tutorials offered by companies like Adobe, Canva and Figma who can give you even more ideas for inspiration.  I'm constantly checking out new tutorials offered by these companies, given that they are free!
 
 ### Use Your Favorite Tool To Design
 
