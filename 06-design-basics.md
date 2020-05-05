@@ -2,7 +2,7 @@
 
 Welcome to design.  The first thing I'd like to say is that, **DESIGN IS SUBJECTIVE**.  
 
-What looks beautiful to you could look ugly to someone else, and vice versa.  We all have our own tastes and preferences.   It's the same as when you want to date someone, or when you decide to eat something.   
+What looks beautiful to you could look ugly to someone else, and vice versa.  We all have our own tastes and preferences.   It's the same as when you want to date someone, or when you decide to eat something.  
 
 Unfortunately, we need to make designs that appeal to the boss (or client) -- and by the way, sometimes the client is YOU (especially if you are starting out).  So how do we get the design right?  Let's follow a couple principles below:
 
@@ -16,7 +16,9 @@ Your layout is your savior.  It's a lot easier to draw something in 15 minutes w
 
 Before you start working on the design, you need to know what the client likes.  Ask them directly what they like, and for 3-5 examples.  If you are your own client, go find 3-5 websites you like that represent the type of design you would like to make.  You can also check out design ideas on sites like [Pinterest.com](https://pinterest.com), [Instagram.com](https://instagram.com) and [Themeforest](https://themeforest.net/).  In addition, there are a lot of tutorials offered by companies like Adobe, Canva and Figma who can give you even more ideas for inspiration.   
 
-On the subject of other clients, some clients can be really difficult. These clients may say, "Oh I'll get back to you", and then never get you any material.  Don't do any work until they get you back the references.   If you start working anyway, then you have a 50/50 chance your client could reject the work you do, and worse, they may not even pay for it!  Hence, stand your ground.  Don't attempt work until the client gives you what you need.  If they are still being difficult, it's time to find another client.  Don't do free work ever for someone who isn't giving you the time of day to get your job done.  
+### Study The Trends
+
+You can also study trends for the industry you are interested in working in.  If you want to work in fashion, study all the fashion websites out there and find out which websites do it the best.  This might feel overwhelming, but your job today isn't to become the top website in fashion.  All you need to do is learn a few things you can take back to your own design.  **Through practice and more studying, you can make your future designs incrementally better.**
 
 ### Use Your Favorite Tool To Design
 
@@ -24,11 +26,11 @@ If you are a Photoshop person, use Photoshop.  If you are an Illustrator person,
 
 Ultimately though, the tool really doesn't matter, so long as you can create a nice design.
 
-### Study The References
+### Examine Your Sources in Great Detail
 
-Look at every single reference your client sent you.  Really study them in detail.  Since there's a lot that goes into studying, I'm going to provide you with a checklist of things I do when I study new design references:
+Since there's a lot that goes into studying, I'm going to provide you with a checklist of things I do when I study new designs:
 
-- What are the primary colors of this website? 
+- What are the primary colors? 
   - Usually there are 2 main colors, and 2 secondary colors
   - The easiest way to figure out which is the primary color is to look at how often colors repeat
   - If you see green the most amount of times in the site, that is the primary color
@@ -36,8 +38,8 @@ Look at every single reference your client sent you.  Really study them in detai
   - If you notice white with green a lot, then green and white are complementary colors
   - If you see greens and purples, these are contrasting colors (because they are really different)
 
-- What is the layout of the website?
-  - What kind of site is this?  Is it a blog? A newsite? A shopping site? 
+- What is the layout?
+  - What kind of site is this?  Is it a blog? A newsite? A shopping site? An ad?
   - Are there a lot of images, or is the site text heavy?
   - Are there separations between content?
   - Does content get bigger or smaller as you scroll the page?
@@ -51,13 +53,14 @@ Look at every single reference your client sent you.  Really study them in detai
   - Do buttons on the site have sharp or rounded corners?
   - What does the site look like if you resize the page to something smaller? 
 
-- What is the Typography of the website?
+- What is the Typography?
   - Are fonts really light or are they very strong (bold)?
   - Are there degrees of variation between fonts that are light and fonts that are strong?
   - Are the fonts soft, meaning do they curve, or are they harsh with sharp edges?
 
-- What other things jump out from the website?
+- What Things Jump Out?
   - Is there a lot of animation?
+  - Is there a twist on anything? E.g colors inverted, layout using non-conventional shapes?
   - Does the website collect information?  What is the process flow?
   - Are there popups on the site? Chat boxes?
   - Is the site video heavy?  Photo heavy?  Do photos slide in and out?
@@ -66,7 +69,7 @@ Look at every single reference your client sent you.  Really study them in detai
   - Do things change based on your interaction with the site?  How so?
   - Is the site tracking you?  How so?
 
-#### Inspect The Pages
+#### Inspect With Browser Tools
 
 **NOTE:** You'll want to use a tool in your browser called an Inspector, which comes with just about every browser.  If you use Google Chrome, you can use the Inspector tool by right clicking anywhere on a webpage and selecting `Inspect`.  (If this option is not available, you may need to enable it in your Browser Preferences -- e.g. Safari requires you to enable the Developer tab first before you can start using the inspector).   
 
@@ -84,10 +87,18 @@ For example, if you see all the pages the client sent you were "dark" themed, it
 
 If you notice that the webpages are all following the same row/column "grid" structure, then you can also use that same row/column layout for the work you do.
 
-Keep working through all the patterns and commonalities you find, and keeping note of anything that contrasts what you've learned.  For example, if one site is REALLY different from the other sites, ask your client what they like about that site.   
+Keep working through all the patterns and commonalities you find, and keeping note of anything that contrasts what you've learned.  For example, if one site is REALLY different from the other sites, ask your client (even if client is yourself) what they like about that site.   
 
-If you feel you have a good sense of what your client is looking for, you can then confirm you will be making a site similar to what your client showed you, and get to work.  If the client gives you more feedback, write it down, along with any extra references they share so you can study those too.
+### Don't Copy But Do Imitate To Learn
 
-## Next Section - Let's Fix Our Resume
+When you start designing, you are often just going to be trying to copy what you see on other sites.  That's totally fine.  In fact, it's really okay to just copy and try to rebuild a lot of cool designs you see out there; just to know if you can do it yourself.
+
+What you shouldn't do is COPY a website entirely and then pass it off as your own work.  That's a huge NO-NO.  The only reason to imitate is to learn something new.  Once you figure out how to create something cool, try to add your own creative twist to it.  
+
+Many artists will say that they are original, but the truth is -- no one is original.  Everyone is copying someone else, even all the way up to some of the greatest performers of all time.  Michael Jackson imitated James Brown and Smokey Robinson as a young child, then was heavily inspired by Fred Astaire for dance moves.  Yet he added his own twists on moves after learning from the masters.  Johnny Ive was inspired heavily by 50s futuristic designs before he made the iPhone.   Nobou Uematsu was a huge fan of rock and roll, and used many elements of [beats he heard in his Final Fantasy soundtracks](https://www.youtube.com/watch?v=5ITGMYWhfMs). 
+
+So you see, you can be an artist too if you practice and dial in enough to what's interesting out there.  It's fun as a hobby and if you put in the effort, today you might not be that great, but if you practice as often as you can, year over year you will get better!  You might even become famous!
+
+## On To The Next Section! Let's Fix Our Resume
 
 Hooray, we learned basic design tips!  Now using what we learned, let's work on making our resume look prettier!  See you next section!
