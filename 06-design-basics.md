@@ -106,3 +106,15 @@ So you see, you can be an artist too if you practice and dial in enough to what'
 ## On To The Next Section! Let's Fix Our Resume
 
 Hooray, we learned basic design tips!  Now using what we learned, let's work on making our resume look prettier!  See you next section!
+
+## Homework
+
+- Find 3-5 websites you like related to the work you'd like to do
+  - E.g. if you want to be a web developer for a game company, go study 3-5 gaming websites
+- Use the checklist from above to analyze all the details about the design
+- Write down patterns and commonalities
+- Look for trends in the industry you want to work in, find out who has the best designs and why
+- Check out some video tutorials on software like Photoshop, Canva, Figma
+- Check out the trending tags for design in industries you like on Instagram or Pinterest
+- What did you learn?
+- Start designing your resume, if you need help, check out what your friends/coworkers resumes might look like on Linkedin.com by going to their profile and selecting "Contact Info", then looking for any website links they have.  Can you recreate elements through imitation?
