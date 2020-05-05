@@ -1,0 +1,93 @@
+# Design Basics
+
+Welcome to design.  The first thing I'd like to say is that, **DESIGN IS SUBJECTIVE**.  
+
+What looks beautiful to you could look ugly to someone else, and vice versa.  We all have our own tastes and preferences.   It's the same as when you want to date someone, or when you decide to eat something.   
+
+Unfortunately, we need to make designs that appeal to the boss (or client) -- and by the way, sometimes the client is YOU (especially if you are starting out).  So how do we get the design right?  Let's follow a couple principles below:
+
+## The Basics
+
+### Always have a layout
+
+Your layout is your savior.  It's a lot easier to draw something in 15 minutes with a pen and paper, or even assemble together a quick HTML skeleton page than it is to draw a beautiful website in Photoshop or Illustrator; then have to go reassemble it because the client hated it.   
+
+### Have 3-5 References of Other Designs the Client Likes
+
+Before you start working on the design, you need to know what the client likes.  Ask them directly what they like, and for 3-5 examples.  If you are your own client, go find 3-5 websites you like that represent the type of design you would like to make.  You can also check out design ideas on sites like [Pinterest.com](https://pinterest.com), [Instagram.com](https://instagram.com) and [Themeforest](https://themeforest.net/).  In addition, there are a lot of tutorials offered by companies like Adobe, Canva and Figma who can give you even more ideas for inspiration.   
+
+On the subject of other clients, some clients can be really difficult. These clients may say, "Oh I'll get back to you", and then never get you any material.  Don't do any work until they get you back the references.   If you start working anyway, then you have a 50/50 chance your client could reject the work you do, and worse, they may not even pay for it!  Hence, stand your ground.  Don't attempt work until the client gives you what you need.  If they are still being difficult, it's time to find another client.  Don't do free work ever for someone who isn't giving you the time of day to get your job done.  
+
+### Use Your Favorite Tool To Design
+
+If you are a Photoshop person, use Photoshop.  If you are an Illustrator person, use Illustrator.  There's also other apps like Canva, Sketch, Adobe XD, and so on.  If you don't know any of the tools, pick one and start learning!  You can also explore any of these tools early on by just checking out video tutorials on sites like YouTube, so you get a sense of how they work.
+
+Ultimately though, the tool really doesn't matter, so long as you can create a nice design.
+
+### Study The References
+
+Look at every single reference your client sent you.  Really study them in detail.  Since there's a lot that goes into studying, I'm going to provide you with a checklist of things I do when I study new design references:
+
+- What are the primary colors of this website? 
+  - Usually there are 2 main colors, and 2 secondary colors
+  - The easiest way to figure out which is the primary color is to look at how often colors repeat
+  - If you see green the most amount of times in the site, that is the primary color
+  - Secondary colors are less frequent, but appear either to contrast or complement a primary color
+  - If you notice white with green a lot, then green and white are complementary colors
+  - If you see greens and purples, these are contrasting colors (because they are really different)
+
+- What is the layout of the website?
+  - What kind of site is this?  Is it a blog? A newsite? A shopping site? 
+  - Are there a lot of images, or is the site text heavy?
+  - Are there separations between content?
+  - Does content get bigger or smaller as you scroll the page?
+  - How many columns on the webpage?  How about rows?
+  - How are sections organized? 
+  - What are the primary headings of the page?  How about sub-headings?
+  - Are there any links on the page? How are they presented?
+  - Are there graphs, charts, lists on the page?  How are they presented?
+  - If you were to get a ruler (you can use a pixel ruler extension), could you figure out how much space is between each section?  How about space between elements?
+  - Is the site crowded with a lot of content or is it minimalistic (e.g. Zen Garden)
+  - Do buttons on the site have sharp or rounded corners?
+  - What does the site look like if you resize the page to something smaller? 
+
+- What is the Typography of the website?
+  - Are fonts really light or are they very strong (bold)?
+  - Are there degrees of variation between fonts that are light and fonts that are strong?
+  - Are the fonts soft, meaning do they curve, or are they harsh with sharp edges?
+
+- What other things jump out from the website?
+  - Is there a lot of animation?
+  - Does the website collect information?  What is the process flow?
+  - Are there popups on the site? Chat boxes?
+  - Is the site video heavy?  Photo heavy?  Do photos slide in and out?
+  - Is there a background video?
+  - Do sections show and hide?  Do new sections appear when you scroll down the page?
+  - Do things change based on your interaction with the site?  How so?
+  - Is the site tracking you?  How so?
+
+#### Inspect The Pages
+
+**NOTE:** You'll want to use a tool in your browser called an Inspector, which comes with just about every browser.  If you use Google Chrome, you can use the Inspector tool by right clicking anywhere on a webpage and selecting `Inspect`.  (If this option is not available, you may need to enable it in your Browser Preferences -- e.g. Safari requires you to enable the Developer tab first before you can start using the inspector).   
+
+Upon opening the inspector, you should see an HTML layout of the entire webpage you are looking at, which might be overwhelming!  Don't worry, we will go through every aspect of the Inspector with time!  For now, it's best to just keep yourself occupied with the main `Elements` tab.   To the left of the `Elements` tab you will see two icons, one that looks like an arrow selecting a box, and another that looks like a mobile phone/tablet icon.  Select the first icon with the arrow in a box.  
+
+Now go over any part of the webpage and click to instantly see what the HTML for that selection.  For example, if you select an image, you'll see how it was coded in HTML with this tool.  Handy!  If you click the mobile/tablet icon instead, you'll see how the page looks if it were viewed on a phone / tablet (which you can control in the settings).  To return back, just click the phone/tablet icon again to get to "Desktop Mode".
+
+You will also notice to the right of the HTML layout is a column that primarily shows Style information.   As a preview, this is CSS that we are going to be working with to add to our HTML to make the code we write more beautiful.   The important thing to do while inspecting is just look at these properties in the style area, and look for items of interest like colors, fonts, spacing.  Even if you don't completely understand, use this tool to just help you get some of the gist of what's going on in the page.
+
+### Find Patterns and Commonalities
+
+After studying many of the different pages, write down what you see again and again across all the references.  Make note of it.  There's SO MUCH studying you really could do, but eventually you want to boil everything down to a few simple things you can work with.
+
+For example, if you see all the pages the client sent you were "dark" themed, it's safe to say that your client likes a dark color scheme.
+
+If you notice that the webpages are all following the same row/column "grid" structure, then you can also use that same row/column layout for the work you do.
+
+Keep working through all the patterns and commonalities you find, and keeping note of anything that contrasts what you've learned.  For example, if one site is REALLY different from the other sites, ask your client what they like about that site.   
+
+If you feel you have a good sense of what your client is looking for, you can then confirm you will be making a site similar to what your client showed you, and get to work.  If the client gives you more feedback, write it down, along with any extra references they share so you can study those too.
+
+## Next Section - Let's Fix Our Resume
+
+Hooray, we learned basic design tips!  Now using what we learned, let's work on making our resume look prettier!  See you next section!
