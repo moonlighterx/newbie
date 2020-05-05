@@ -20,7 +20,7 @@ Before you start working on the design, you need to know what the client likes. 
 
 You can also study trends for the industry you are interested in working in.  If you want to work in fashion, study all the fashion websites out there and find out which websites do it the best.  This might feel overwhelming, but your job today isn't to become the top website in fashion.  All you need to do is learn a few things you can take back to your own design.  **Through practice and more studying, you can make your future designs incrementally better.**
 
-Also check out design ideas on sites like [Pinterest.com](https://pinterest.com), [Instagram.com](https://instagram.com) and [Themeforest](https://themeforest.net/).  In addition, there are a lot of tutorials offered by companies like Adobe, Canva and Figma who can give you even more ideas for inspiration.  I'm constantly checking out new tutorials offered by these companies, given that they are free!
+Also check out design ideas on sites like [Pinterest.com](https://pinterest.com), [Instagram.com](https://instagram.com) and [Themeforest](https://themeforest.net/).  In addition, there are a lot of tutorials offered by companies like [Adobe](https://adobe.com), [Canva](https://canva.com) and [Figma](https://figma.com) who can give you even more ideas for inspiration.  I'm constantly checking out new tutorials offered by these companies, given that they are free!
 
 ### Use Your Favorite Tool To Design
 
@@ -59,6 +59,8 @@ Since there's a lot that goes into studying, I'm going to provide you with a che
   - Are fonts really light or are they very strong (bold)?
   - Are there degrees of variation between fonts that are light and fonts that are strong?
   - Are the fonts soft, meaning do they curve, or are they harsh with sharp edges?
+  - What are the names of the fonts? 
+  - Can you find similar fonts on [Google Fonts](https://googlefonts.com)? [DaFont.com](https://www.dafont.com/)?
 
 - What Things Jump Out?
   - Is there a lot of animation?
