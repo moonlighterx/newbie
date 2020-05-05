@@ -45,6 +45,7 @@ Since there's a lot that goes into studying, I'm going to provide you with a che
   - Are there a lot of images, or is the site text heavy?
   - Are there separations between content?
   - Does content get bigger or smaller as you scroll the page?
+  - How many pixels wide is the main grid of the page? 
   - How many columns on the webpage?  How about rows?
   - How are sections organized? 
   - What are the primary headings of the page?  How about sub-headings?
