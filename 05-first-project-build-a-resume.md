@@ -77,12 +77,17 @@ We know headings can be represented by tags like `<h1>`, `<h2>`, `<h3>` and so o
 
 ### Make A Header
 
-Let's do that.  Our code now looks like inside our `<body>` tag:
+Let's do that.  Our code now looks like:
 
 ```html
-<body>
-    <h1>Resume of Vijay Menon</h1>
-</body>
+<html>
+  <head>
+    <title>My Resume</title>
+  </head>
+  <body>
+      <h1>Resume of Vijay Menon</h1>
+  </body>
+</html>
 ```
 
 Feel free to change `Vijay Menon` with your own name.
@@ -113,52 +118,117 @@ Compare this with having to write a full URL like in our previous chapter, where
 
 We'll talk a lot more about LOCAL vs ABSOLUTE paths (urls) in upcoming chapters, but for now these are the basics. 
 
-Our code now looks like inside our `<body>` tag:
+Our code now looks like:
 
 ```html
-<body>
-    <h1>Resume of Vijay Menon</h1>
-    <img src="images/myphoto.png" alt="Vijay's Photo" />
-</body>
+<html>
+  <head>
+    <title>My Resume</title>
+  </head>
+  <body>
+      <h1>Resume of Vijay Menon</h1>
+      <img src="images/myphoto.png" alt="Vijay's Photo" />
+  </body>
+</html>
+```
+
+### Let's add our contact info as another paragraph, and let's add links
+
+We can add another paragraph tag `<p>` under our image and write in some information about how to contact us.  I made my email and my Linkedin profile linkable by adding `<a>` tags.  
+
+```html
+<p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>`
+```
+
+You'll notice that with my email, rather than using `https://someurl.com` like we usually do for a link, I'm using `mailto:` instead, followed by my email.   This special code snippet will make any link an email link instead of a url link, which when clicked on will open the default Mail program and send an email to whatever email supplied: aka `mailto:vmenon@email.com`.  Neet trick!
+
+Our code now looks like:
+
+```html
+<html>
+  <head>
+    <title>My Resume</title>
+  </head>
+  <body>
+      <h1>Resume of Vijay Menon</h1>
+      <img src="images/myphoto.png" alt="Vijay's Photo" />
+      <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
+  </body>
+</html>
 ```
 
 ### Add sub-headings for Experience, Education & Skills
 
 These are going to be `<h2>` or `<h3>` tags because we want sub-headings.  Our main heading is already in use with an `<h1>` tag.  Let's put these under the `<img>` tag we just made.  For simplicity, let's use `<h2>` tags.
 
-Our code now looks like inside our `<body>` tag:
+Our code now looks like:
 
 ```html
-<body>
-    <h1>Resume of Vijay Menon</h1>
-    <img src="images/myphoto.png" alt="Vijay's Photo" />
-    <h2>Experience</h2>
-    <h2>Education</h2>
-    <h2>Skills</h2>
-</body>
+<html>
+  <head>
+    <title>My Resume</title>
+  </head>
+  <body>
+      <h1>Resume of Vijay Menon</h1>
+      <img src="images/myphoto.png" alt="Vijay's Photo" />
+      <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
+      <h2>Experience</h2>
+      <h2>Education</h2>
+      <h2>Skills</h2>
+  </body>
+</html>
 ```
 
 ### Fill in the content
 
-Most of this part is just going to be making simple paragraph tags and filling them with content about our experience, education and skills.  Let's first add in all the content (which for time's sake I'm just adding in dummy lorem ipsum text).  Feel free to write your own content and really elaborate.
+Most of this part is just going to be making simple `<p>` paragraph tags and filling them with content about our experience, education and skills.  You might want to use additional tags like `<ul>` to make a list, or `<br />` to separate line breaks.  You might even want to use more sub-headings like `<h3>` to make content more organized.  
+
+In any case, let's add in all the content from our layout above.  Feel free to write your own content and really elaborate.
 
 Our code now looks like:
 
 ```html
-<body>
-    <h1>Resume of Vijay Menon</h1>
-    <img src="images/myphoto.png" alt="Vijay's Photo" />
-    <h2>Experience</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <h2>Education</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <h2>Skills</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-</body>
+<html>
+  <head>
+    <title>My Resume</title>
+  </head>
+  <body>
+      <h1>Resume of Vijay Menon</h1>
+      <img src="images/myphoto.png" alt="Vijay's Photo" />
+      <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
+      <h2>Experience</h2>
+      <h3>Project Manager, Acme Advertising Agency</h3>
+      <p>2012-2018</p>
+      <p>Developed sales bundles and packages for initiatives at Acme.  Helped group attain $12 million in new account sales.  Created new RVs, Motorcycle Advertising vertical.  Trained employees and helped them hit their goals 100% YOY every year.</p>
+      <h3>Inside Sales Account Executive, Acme Advertising Agency</h3>
+      <p>2011-2012</p>
+      <p>Sold over $500K in new business development for automotive category for Cars.com.</p>
+      <h2>Education</h2>
+      <p>B.A. Business, University of Hard Knocks, 2005
+      <br />Trendy Search Engine Course Certificate, 2011</p>
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Office: Word, Excel, Powerpoint, Access, Outlook</li>
+        <li>Google Drive: Google Sheets, Google Docs, Google Slides</li>
+        <li>Google Ads, PPC, Yahoo! Ads, Bing Ads, SEO, SEM, Cars.com</li>
+        <li>HTML, CSS, Wordpress, Photoshop, Illustrator, Adobe XD</li>
+        <li>Mailchimp, Aweber, Email Marketing</li>
+      </ul>
+  </body>
+</html>
 ```
 
 ## You've Got The Layout, Now It's Time To Flesh It Up.
 
-Okay, so end of this section.  We have essentially translated our pencil/paper layout to layout in code.  
+Okay, so end of this section.  We have essentially translated our pencil/paper layout to layout in code.  In a sense, you could share this resume to your friends, coworkers and new businesses that you might want to apply to, but I'm pretty sure you wish this resume had a little more style.  It sure is basic.
 
-From here, we can go on to making the page look pretty (so we can be the artist now).  That said, before we get into prettiness, there are a few more tweaks we can do to our HTML page.   If you're ready, see you in the next section!  If not, feel free to go through the material we worked on and try working through it again to make sure you are comfortable.
+That's exactly what we are going to do next; make the resume pretty.  It's time to be an artist!  If you are a designer, this is probably going to be the part you love the most.  If you're not a designer, and cannot draw to save your life, don't worry -- I'll give you some basic ideas as to how to at least fake you know what you are doing.   I also started off not knowing anything about design, but over the years I've picked up what works and what doesn't, especially if I had to improvise when we didn't have budgets for a designer.   Knowing how to do some basic design yourself will help you be an all around better web developer.
+
+After the design section and a little bit more work on organization with HTML, we'll jump into CSS, which will be the next language we will focus on in learning web development.  CSS (Cascading Style Sheets) are programmatic rules you write for a webpage you create in HTML that style the page.  We'll see how CSS works very shortly!  Stay tuned!
+
+
+## Homework
+
+- Make a resume for yourself now that you have finished this tutorial
+- Really work to make your resume as detailed and organized as possible.  Feel free to experiment with more tags, especially list tags `<ul>`, `<ol>`, as well as more sub-headers, `<h4>`, `<h5>` and images `<img>`.  
+- See if you can jump ahead and learn about semantic HTML5 tags like `<section>`, `<nav>`, `<article>`, and `<aside>`.   We will learn those tags though too in upcoming lessons.  
