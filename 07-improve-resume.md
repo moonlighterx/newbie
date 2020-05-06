@@ -26,8 +26,6 @@ p {
 }
 ```
 
-<p style="color: blue;">This is a line of text</p>
-
 What we are saying here essentially is that ANY TIME we have a `p` tag in our HTML, we want to give it a `color` property of `blue`.  That's why the paragraph you see above is `blue`.
 
 What if we want to change the color?
@@ -37,9 +35,11 @@ p {
     color: red;
 }
 ```
-<p style="color: red;">This is a line of text</p>
 
-This line of code now changes all paragraphs to `red` color in our body.   
+![alt text](css.gif "CSS Rules")
+
+
+This line of code now changes all paragraphs to `red` color in our body.
 
 A rule is created by writing the name of the element (called a selector) followed by an opening bracket `{`, followed by the property (or properties) you want to set values for (e.g. `color`:`red`), followed by a `;` to indicate the end of a statement (like in English how a period `.` ends a sentence), followed by a closing `}` bracket.
 
