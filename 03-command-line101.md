@@ -35,14 +35,59 @@ ls
 
 This would take me to the folder at "Root drive" > "Users" > "vijay".  The `ls` command would list all the files and folders that were inside.
 
-If you are on Windows, you could use the following commands (replace YourName with your folder name):
+If I was on Windows, I could use the following commands:
 
 ```
-cd C:\Users\YourName
+cd C:\Users\vijay
 dir
 ```
 
 You'll notice that Windows uses `\` backslashes, while Mac/Linux use `/` forward slashes to separate folders.  Additionally on Windows we need to type `C:` drive or whatever drive name first before we can get to the next folder.  Mac and Linux just start with `/`.  This is because in Mac and Linux, the top drive or `C:` drive is just called the "root directory", so there is no need to name it.   Finally, in Mac and Linux, we use `ls` to list out items, while Windows tells us to use `dir` (`ls`) doesn't work.
+
+### Shortcuts & Coding Lingo
+
+Part of learning programming means learning new vocabulary and computer jargon, sometimes called **coding lingo** or **computer slang**.  
+
+#### Paths
+
+For example, you'll hear addresses to folders on your hard drive referred to as **paths**.  I will most likely say the term **path** as well when referring to a computer address.   It's just easier for me to say.
+
+So if I say I want to navigate to the **"Home" path** on my computer, I'm really saying:
+
+`cd /Users/vijay`
+
+#### The ~ sign
+
+Sometimes you'll see `~` sign before a path like so:
+
+`~/Tutorials`.
+
+The `~` is a shortcut for typing out the full path for the home directory.  So in my case, `~` would be a shortcut for `/Users/vijay`.  Anything after the `~` sign would be the next folder I'd want to navigate to, in this case `Tutorials`.
+
+So I could write:
+
+```
+cd ~/Tutorials
+ls
+```
+
+And this code would navigate me to my **home path** followed by the `Tutorials` folder.  I then use `ls` to see what's inside.
+
+#### `<yourname>`
+
+Any time you see code written out with `<yourname>` or a variant, e.g. `<yourfolder>` or `<yourfile>`, know that this is code YOU will need to name or navigate to for your own computer. 
+
+For example if I say navigate to the path:
+
+`/Users/<yourname>`
+
+^This means you need to go to a folder with your name on it, in this case YOUR home folder (as you can't get to mine).
+
+#### `<home>`
+
+For convenience too, I may use lingo like `<home>` to refer to YOUR home folder:
+
+`cd /Users/<home>`.
 
 ### Why So Many Differences Between Windows and Mac?
 
@@ -60,7 +105,9 @@ Let's finish up this chapter by introducing some more commands.
 
 `cd` - Change directory (by itself returns us to root folder)
 
-`cd /Users/<homefolder>` - Whenever you see `<>`, replace that with your file/folder.  Here we are changing directory to the home folder under the path/address `/Users/<homefolder>`
+`cd /Users/<home>` - go to the home folder on your computer.  Remember to replace `<home>` with your real home folder name, as `<home>` is just lingo.
+
+`cd ~` - Whenever you see `~`, replace that with the path to your home folder.  
 
 `cd ..` - Go back one folder 
 
@@ -79,8 +126,30 @@ Combining what we learn here with another app called Git (used for tracking a we
 
 However, before we do all that, we have enough knowledge to now begin writing our first lines of code.  Let's get programming!
 
+## Homework
 
+Using the command line:
 
+1. Navigate to your home folder on your computer.  What are some ways you can get to this path again?  What command could you use to see what folder you are presently in?
 
+2. Create a folder called `Tutorials` inside your home folder.  Find the same folder without the command line by regular means (so look normally using your start bar or finder or explorer to help you get to this folder).
 
+3. Change directory into the `Tutorials` folder from home (`~`), your command line.  Use `pwd` to verify you are in the `Tutorials` folder.
 
+4. Make a new folder called `Chapter-03`.  Change directory to that folder, and use `pwd` to verify you are now in that folder.  Find this folder without your command line by regular means.
+
+5. Make another folder inside `Chapter-03` called `homework`.  Change directory to that folder.  Using `pwd` to verify what path you are in now.
+
+6.  back to Make a file called `readme.txt` with your command line.  What was the command to create a new file again?
+
+7. Make another file called `readme2.txt` in the same folder.  
+
+8. Use the `ls` command to help you see what's been created so far.
+
+9. Open the `readme.txt` file in a program like `Notepad` or `TextEdit` and start typing into the file.  Save the file.  Then use the command line to get to the folder containing this file and type the following:
+
+```
+cat readme.txt
+```
+
+If successful, you should see what you wrote displayed on the command line.

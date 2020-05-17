@@ -40,6 +40,8 @@ I'm telling the browser I want to show `Hello World` on my new page, and wrap it
 
 ## More Examples:
 
+### Paragraphs
+
 Try the following as exercises, save in your index.html file with Visual Studio Code, then refresh your browser to see the new result.
 
 ```html
@@ -57,6 +59,8 @@ Try the following as exercises, save in your index.html file with Visual Studio 
 
 Use `<p>` tags to make paragraphs, to indicate new paragraphs like when writing a long blog post.  
 
+
+### Links
 
 ```html
 <p><a href="https://google.com">This is a link to Google.com</a></p>
@@ -78,6 +82,7 @@ The `href` property is a special attribute that allows the `<a>` tag to link som
 
 You must wrap your URL in quotes `"` before and after the url ends, and you must have an equal sign before your quotes so that we can feed the `href`.  In developer terms, any time you see text wrapped in quotes `"` (double) or `'` (single), it's referred to as a **string**.   We'll talk more about strings later on, but for now if you wrap text in a double quote `"`, you must end it in a double quote `"` for it to be a valid string.  If you start a string with a single quote `'`, it must be ended with a single quote as well `'`.   **Consistency does matter.**
 
+### Headings
 
 ```html
 <h1>This is our page's main heading tag.</h1>
@@ -100,6 +105,8 @@ You must wrap your URL in quotes `"` before and after the url ends, and you must
 
 Heading tags are used to mark important content on your page.  Usually the `<h1>` tag is for the most important item on your page, such as a page title aka `Use this weird trick to lose fat in 5 minutes a day!`.   You can also have sub-headings and smaller sub-headings to guide the reader to more sections of your page.
 
+### Lists
+
 ```html
 <h2>Things to do</h2>
 <ul>
@@ -130,8 +137,29 @@ Heading tags are used to mark important content on your page.  Usually the `<h1>
     <li>Cafe Latte</li>
 </ol>
 
+List tags that start with `<ul>` or `<ol>` allow us to mark up our English with bullets, giving us output that looks more like a list.  Use list tags to help make things like todo lists.  The `<ul>` tag is for lists with no order, hence you just see bullets.  The `<ol>` tag is for lists with order, so you'll see numbers instead.  You use `<li>` tags to indicate a list item.  You can have as many `<li>` tags as you want, just be sure to close each `<li>` tag with a closing `</li>` tag.   When you are finished creating the list, be sure to also close the `<ul>` or `<ol>` with the appropriate closing tag too.
 
-List tags that start with `<ul>` or `<ol>` allow us to mark up our English with bullets, giving us output that looks more like a list.  Use list tags to help make things like todo lists.  The `<ul>` tag is for lists with no order, hence you just see bullets.  The `<ol>` tag is for lists with order, so you'll see numbers instead.
+
+### Indentation
+
+When you see HTML written out, you'll notice that a lot of code is written with indentation, or basically spacing.  
+
+The computer doesn't really care in the case of HTML whether you use a single space or hundreds of lines of space to separate one HTML snippet from another. Spaces are typically ignored between HTML elements.  
+
+(Spaces are NOT ignored between actual English markup, otherwise I could not write this sentence).  However space between code is ignored, so use this to your advantage.
+
+Spacing elements from each other with indentation is a good way to have **CODE READABILITY**.  So, in out last example we saw a `<ul>` tag with `<li>` tags nested inside.   Technically we didn't need to indent our `<li>` tags but by adding a little space to separate each tag, it's easier to read our code.  
+
+You can use either tabs or spaces to indent your code.  In Visual Studio Code, this can be done even easier by using the `Command` (Mac) or `Ctrl` (Windows) key plus the forward bracket `]` to indent long sections of HTML for readability.  
+
+As for whether to use tabs or spaces, there are huge debates in the coding community for which is more performant.  Spaces are easier for a computer to read, however tabbed spaces are easier for a human to read.  It's also easier to just press `Tab` on your computer keyboard to indent some code than to hit the `Spacebar` dozens of times to improve readability.  
+
+The main thing is to use spacing to help make your code more readable to you, so you can continue working on it.  Not having space between elements makes your code harder to read, but the computer doesn't care.
+
+Enjoy [this clip from Silicon Valley (the HBO TV Show)](https://www.youtube.com/watch?v=SsoOG6ZeyUI) for some fun and insight into the debate.   
+
+
+### Tables
 
 ```html
 <table>
@@ -184,7 +212,11 @@ It's a bit more work to make a table, but if you get the idea, you can make thes
 
 ## Now Let's Look At Self Closing Tags
 
-A tricky feature about HTML that throws off some students of web development is that it can have tags that close themselves (meaning no content in between).  For example, here's a tag that creates a horizontal line and has no content in between.  For that reason, we end this tag with a `/>`.
+A tricky feature about HTML that throws off some students of web development is that it can have tags that close themselves (meaning no content in between).  
+
+### Horizontal Rule Lines
+
+For example, here's a tag that creates a horizontal line and has no content in between.  For that reason, we end this tag with a `/>`.
 
 ```html
 <hr />
@@ -195,6 +227,8 @@ A tricky feature about HTML that throws off some students of web development is 
 <hr />
 
 Some developers will drop the `/>` and just write `<hr>` but it's important to know that this is still a self closing tag.
+
+### Images
 
 Here's another self-closing tag:
 
@@ -209,6 +243,8 @@ Here's another self-closing tag:
 The `<img>` tag closes itself as you notice again by the `/>` ending.  The image tag is used to show an image, but to actually show an image, you have to feed it an image URL (just like we did for the link tag `<a>` earlier).  In this case you would use the `src` attribute instead of the `href` attribute.   `src` is for images, while `href` is for links.  I made this example more interesting by adding two more attributes, one for `width` and one for `height`, set in pixels on the screen -- so a width of `320` pixels by `240` pixels high.
 
 We will explore more attributes for HTML tags, but again think of these attributes as things that augment your HTML.  Without augmentation, your content would be non-interactive.  It's this interactivity that makes using the web better for reading than reading an actual textbook.
+
+### Line Breaks
 
 ```html
 <br />
@@ -243,7 +279,6 @@ Notice this is a paragraph `<p>` with 3 line breaks `<br />` inside.
 Though we have been doing our examples and having fun with HTML exercises, our code we've written so far has been broken.   Technically you are supposed to write your HTML using proper HTML guidelines, much like how in English you would use proper grammar, spelling and punctuation.
 
 You didn't have to worry about all that because your browser takes care of the HTML "spell-checking" for you.  However, as you start to make real websites using HTML, you MUST be responsible for your own HTML syntax.  Not doing so will lead your website to render incorrectly and have browsers attempt to fix the code in different ways, leading to different results when people use different browsers to see your webpage.  Not only that, if search engines like Google crawl your webpage and try to process what's on it for their database; if code is broken -- you may rank lower or not at all when it comes to finding you on the web in a Google search engine.   Hence learning proper HTML structure is very important!
-
 
 ## Proper HTML
 
@@ -287,6 +322,13 @@ Your next mission is to start making more HTML documents.  Here's your homework:
 
 ## Homework:
 
-- Use your command line to make another HTML page.  Call it `about.html`.  
-- Find the `about.html` page in your Programming folder, and open it with Visual Studio Code.  Next, using proper HTML syntax, write a page using paragraphs, images, links, lists and headings that explains everything about you.   Open your `about.html` page in a browser like Google Chrome or Firefox to see and verify your output.
+Make a folder called `Chapter-04` from your `Tutorials` folder.  Then `cd` inside that folder and create a folder called `homework`.  All homework should go inside this folder.  
+
+Your project directory should look like:
+`~/Tutorials/Chapter-04/homework`
+
+All files should go inside the `homework` folder:
+
+- Use your command line to make an HTML page.  Call it `about.html`. 
+- Find the `about.html` page on your computer (`~/Tutorials/Chapter-04/homework`), and open it with Visual Studio Code.  Next, using proper HTML syntax, write a page using paragraphs, images, links, lists and headings that explains everything about you.   Open your `about.html` page in a browser like Google Chrome or Firefox to see and verify your output.
 - Repeat the above exercise and make a page that is called `blog.html`.  Write a few paragraphs about yourself with titles as if it were a blog post.  
