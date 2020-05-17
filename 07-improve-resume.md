@@ -75,3 +75,6 @@ If this still feels a bit alien to you, you'll catch on with time as we work tog
 
 ## Let's Keep Going
 
+Now that you have a basic idea of how to use HTML and CSS, let's work on our resume together.  We'll use the design I have for my resume as a guide.  Later, in homework -- you can work on your own resume and use the ideas I've given you to layout and style it yourself.
+
+Let's start our project in the next chapter.  See you there!
