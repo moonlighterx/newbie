@@ -138,15 +138,19 @@ Using the command line:
 
 4. Make a new folder called `Chapter-03`.  Change directory to that folder, and use `pwd` to verify you are now in that folder.  Find this folder without your command line by regular means.
 
-5. Make another folder inside `Chapter-03` called `homework`.  Change directory to that folder.  Using `pwd` to verify what path you are in now.
+5. Change directory back up to `Tutorials`.  How would you do this?
 
-6.  back to Make a file called `readme.txt` with your command line.  What was the command to create a new file again?
+6. Change directory back up to `~`.  How would you do this?  
 
-7. Make another file called `readme2.txt` in the same folder.  
+7. Change directory to `~/Tutorials/Chapter-03`. Make another folder inside `Chapter-03` called `homework`.  Change directory to that folder.  Using `pwd` to verify what path you are in now.
 
-8. Use the `ls` command to help you see what's been created so far.
+8. Be sure you are in or navigate back to `~/Tutorials/Chapter-03/homework`.  Make a file inside called `readme.txt` with your command line.  What was the command to create a new file again?
 
-9. Open the `readme.txt` file in a program like `Notepad` or `TextEdit` and start typing into the file.  Save the file.  Then use the command line to get to the folder containing this file and type the following:
+9. Make another file called `readme2.txt` in the same folder.  
+
+10. Use the `ls` command to help you see what's been created so far.
+
+11. Open the `readme.txt` file in a program like `Notepad` or `TextEdit` and start typing into the file.  Save the file.  Then use the command line to get to the folder containing this file and type the following:
 
 ```
 cat readme.txt
