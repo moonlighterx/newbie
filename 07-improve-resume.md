@@ -51,9 +51,11 @@ p (
 )
 ```
 
-In this rule above^, the CSS is INCORRECT.  The rule uses an opening `(` instead of a `{` which is the first error.  You'll also notice that there is no `:` separating the property `color` from its value `red`.  The `red` value is also missing a semicolon `;`.  (Again, it's like forgetting to end your sentence with `.` in English.) 
+In this rule above^, the **CSS is INCORRECT**.  Take a moment to think why.
 
-Ultimately, this code will just get ignored when the browser attempts to read the CSS rule.  This CSS rule set is NO GOOD.
+**Answer**: The rule uses an opening `(` instead of a `{` which is the first error.  You'll also notice that there is no `:` separating the property `color` from its value `red`.  The `red` value is also missing a semicolon `;`.   
+
+Ultimately, this BAD code will just get ignored when the browser attempts to read the CSS rule.  This CSS rule set is NO GOOD.
 
 ```css
 p ]
@@ -61,13 +63,11 @@ p ]
 [
 ```
 
-Can you tell what's wrong with this CSS rule set?  
+**Can you tell what's wrong with this CSS rule set?**
 
 If you guessed the brackets were wrong, good for you! We should have curly brackets that open and close `{` `}`, not brackets that close and open `]` `[`.
 
-Again syntax is super important!  
-
-What else do you see wrong?  
+**What else do you see wrong?**
 
 `red` is now in front of `color`.  That doesn't make sense.  Properties like `color` should have values like `red` and in that order, not the other way around where values have properties.
 
@@ -77,4 +77,4 @@ If this still feels a bit alien to you, you'll catch on with time as we work tog
 
 Now that you have a basic idea of how to use HTML and CSS, let's work on our resume together.  We'll use the design I have for my resume as a guide.  Later, in homework -- you can work on your own resume and use the ideas I've given you to layout and style it yourself.
 
-Let's start our project in the next chapter.  See you there!
+- Let's start our project in the next chapter.  See you there!
