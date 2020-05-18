@@ -119,18 +119,41 @@ Here is sample HTML output with a `<style>` tag in the `<head>`.  If you want to
 </html>
 ```
 
-### Indentation
+### Notes On Indentation With CSS
 
+Indentation for CSS is similar to HTML.  While we don't need to have indentation around our CSS, it makes for good readability.
 
+Technically you can write CSS like this:
 
+```css
+p{color:red;}
+```
+
+Some people like to write CSS without spaces, so long as their syntax is correct -- it will work.  However, as the CSS gets more detailed, especially if we add in syntax for font sizes, font families, background colors, gradients -- you might have code that looks like this:
+
+```css
+p{color:red;background-color:black;font-family:"Helvetica",serif;font-weight:bold;}
+```
+
+This will still work, but just looks ugly.  By indenting, we can make this code easier for us to read and undertand.
+
+```css
+p {
+    color:red;
+    background-color:black;
+    font-family:"Helvetica",serif;
+    font-weight:bold;
+}
+```
+^Easier to read.
 
 ## To Review
 
 Always use correct syntax when writing CSS.  Use correct syntax when working with any computer language in general, because the computer takes everything written by you, the human literally.
 
-If you make a mistake, CSS and HTML will "autocorrect" on your behalf, but not in the way you might want.  CSS mistakes are IGNORED, so your rule set will not get applied to the HTML you wrote.   Broken HTML will be "corrected" by the browser that displays your layout, but again you lose control because your HTML is no longer the one you wrote, but the browser re-wrote for you.
+If you make a mistake, CSS and HTML will "autocorrect" on your behalf, but not in the way you might want.  CSS mistakes are IGNORED, so your rule set will not get applied to the HTML you wrote.   
 
-Don't worry if you feel unconfident about writing HTML and CSS.  The key is practice, so make sure you give yourself enough time to practice, and then writing HTML and CSS will feel like second nature to you.
+Use indentation to make it easier for yourself to read and write CSS.  
 
 ## Let's Keep Going
 
@@ -142,29 +165,60 @@ Now that you have a basic idea of how to use HTML and CSS, let's work on our res
 
 Check out the following HTML and CSS code below.   Can you identify what might be wrong with these code snippets? How would you fix the snippet so it works in a browser properly (the way you specified)?
 
-Use your command line to make a folder called `homework-07` inside your `Tutorials` folder.  Put all your code into this folder.  So you should be working inside a project structure like this.  Be careful not to mix old homework with new homework (older homework should be in the previous chapters' homework folder).
+Use your command line to make a folder called `Chapter-07` inside your `Tutorials` folder.  Then make one more folder inside called `homework`. Put all your homework code into this folder.  So you should be working inside a project structure like this.  
 
-`~/Tutorials/homework-07`
+`~/Tutorials/Chapter-07/homework`
 
 ### Snippet 1
 
 ```html
+<!doctype html>
 <html>
 <title>My Website</title>
-<p>This is my website<li>
+<body>
+<p>This is my website<p>
 </body>
+<html>
 ```
 
-Make a new HTML page called `snippet1.html`.  Paste this code into your `snippet1.html`, save, then open the file with your browser after finding the file in your project folder. Does the page work?   Try to correct the broken HTML, then save and refresh this page in the browser.  Does the page still work?
+Make a new HTML page called `snippet1.html`.  Paste this code into your `snippet1.html`, save, then open the file with your browser after finding the file in your project folder. What do you notice about this HTML?  Is it valid syntax or do you think it's broken?  How could you fix the code?
 
 ### Snippet 2
 
 ```html
+<!doctype html>
 <html>
 <head>
-    <title></title>
+    <title>My webpage</title>
 </head>
-
+<body>
+p {
+    color:green;
+}
+<p>Hello</p>
+</body>
 </html>
 ```
 
+Make a new HTML page called `snippet2.html`.  Paste this code into your `snippet2.html`, save, then open the file with your browser after finding the file in your project folder. Why isn't the paragraph green? How could you fix this code?
+
+
+### Snippet 3
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <title>This is the title of my webpage</title>
+    <style>
+        p ( 
+            color: red;
+        )        
+    </style>
+  </head>
+  <body>
+    <p>This is my webpage</p>
+  </body>
+</html>
+```
+Make a new HTML page called `snippet3.html`.  Paste this code into your `snippet3.html`, save, then open the file with your browser after finding the file in your project folder. Why isn't this paragraph red?  How could you fix the code?
