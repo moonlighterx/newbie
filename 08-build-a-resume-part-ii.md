@@ -1,6 +1,6 @@
 # Build The Resume (Part II) With Style
 
-# Improving Our Resume With Design
+## Improving Our Resume With Design
 
 Using the advice I gave you in the previous section on design, I've put together a styled up resume.  Let's use the HTML layout we created in Chapter 5, and use the CSS we learned in Chapter 7 to make a lovely looking resume webpage!
 
