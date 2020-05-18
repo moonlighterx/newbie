@@ -229,6 +229,4 @@ After the design section and a little bit more work on organization with HTML, w
 
 ## Homework
 
-- Make a resume for yourself now that you have finished this tutorial
-- Really work to make your resume as detailed and organized as possible.  Feel free to experiment with more tags, especially list tags `<ul>`, `<ol>`, as well as more sub-headers, `<h4>`, `<h5>` and images `<img>`.  
-- See if you can jump ahead and learn about semantic HTML5 tags like `<section>`, `<nav>`, `<article>`, and `<aside>`.   We will learn those tags though too in upcoming lessons.  
+None for now, yay!  We'll return to homework soon!

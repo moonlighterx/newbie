@@ -1,16 +1,4 @@
-# Improving Our Resume With Design
-
-Using the advice I gave you in the last section, I've put together a resume design.  That said, I know many of you are still beginners, so I am keeping my design basic enough to replicate for newbies, while giving those more design inclined the chance to do their own thing.  So if you are really good at design, go and make your resume look fantastic!  Just be sure you can code it too!  
-
-If you want to use my basic design for now, you can and when you are ready to make your resume look even better (after this masterclass), feel free to really spruce it up.
-
-![alt text](resume-pretty.jpg "Pretty Resume")
-
-## How Do We Code This?
-
-Now that we have our design, you might be wondering to yourself how to turn the HTML layout you made earlier into code that looks like this design.  One thing's for sure, I have not taught you how to color anything yet.  
-
-## Let's Talk About CSS
+# Let's Talk About CSS
 
 CSS, or Cascading Style Sheets (as they are called), is a language used to style pages made in HTML.  While HTML is used primarily for **layout**, CSS is used primarily for **style**.
 
