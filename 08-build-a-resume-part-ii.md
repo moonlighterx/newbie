@@ -17,7 +17,24 @@ Using the advice I gave you in the previous section on design, I've put together
       <h1>Resume of Vijay Menon</h1>
       <img src="images/myphoto.png" alt="Vijay's Photo" />
       <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
-      <h2>Experience</h2>
+           <h2>Experience</h2>
+      <h3>Project Manager, Acme Advertising Agency</h3>
+      <p>2012-2018</p>
+      <p>Developed sales bundles and packages for initiatives at Acme.  Helped group attain $12 million in new account sales.  Created new RVs, Motorcycle Advertising vertical.  Trained employees and helped them hit their goals 100% YOY every year.</p>
+      <h3>Inside Sales Account Executive, Acme Advertising Agency</h3>
+      <p>2011-2012</p>
+      <p>Sold over $500K in new business development for automotive category for Cars.com.</p>
+      <h2>Education</h2>
+      <p>B.A. Business, University of Hard Knocks, 2005
+      <br />Trendy Search Engine Course Certificate, 2011</p>
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Office: Word, Excel, Powerpoint, Access, Outlook</li>
+        <li>Google Drive: Google Sheets, Google Docs, Google Slides</li>
+        <li>Google Ads, PPC, Yahoo! Ads, Bing Ads, SEO, SEM, Cars.com</li>
+        <li>HTML, CSS, Wordpress, Photoshop, Illustrator, Adobe XD</li>
+        <li>Mailchimp, Aweber, Email Marketing</li>
+      </ul>
       <h2>Education</h2>
       <h2>Skills</h2>
   </body>
@@ -67,6 +84,23 @@ Let's add in the `<style>` tag now to the HTML.  Add your style tag to the `<hea
       <img src="images/myphoto.png" alt="Vijay's Photo" />
       <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
       <h2>Experience</h2>
+      <h3>Project Manager, Acme Advertising Agency</h3>
+      <p>2012-2018</p>
+      <p>Developed sales bundles and packages for initiatives at Acme.  Helped group attain $12 million in new account sales.  Created new RVs, Motorcycle Advertising vertical.  Trained employees and helped them hit their goals 100% YOY every year.</p>
+      <h3>Inside Sales Account Executive, Acme Advertising Agency</h3>
+      <p>2011-2012</p>
+      <p>Sold over $500K in new business development for automotive category for Cars.com.</p>
+      <h2>Education</h2>
+      <p>B.A. Business, University of Hard Knocks, 2005
+      <br />Trendy Search Engine Course Certificate, 2011</p>
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Office: Word, Excel, Powerpoint, Access, Outlook</li>
+        <li>Google Drive: Google Sheets, Google Docs, Google Slides</li>
+        <li>Google Ads, PPC, Yahoo! Ads, Bing Ads, SEO, SEM, Cars.com</li>
+        <li>HTML, CSS, Wordpress, Photoshop, Illustrator, Adobe XD</li>
+        <li>Mailchimp, Aweber, Email Marketing</li>
+      </ul>
       <h2>Education</h2>
       <h2>Skills</h2>
   </body>
@@ -98,7 +132,24 @@ For simplicity, I've omitted the rest of the HTML, but when viewing your page yo
         <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
     </div>
     <div>
-        <h2>Experience</h2>
+      <h2>Experience</h2>
+      <h3>Project Manager, Acme Advertising Agency</h3>
+      <p>2012-2018</p>
+      <p>Developed sales bundles and packages for initiatives at Acme.  Helped group attain $12 million in new account sales.  Created new RVs, Motorcycle Advertising vertical.  Trained employees and helped them hit their goals 100% YOY every year.</p>
+      <h3>Inside Sales Account Executive, Acme Advertising Agency</h3>
+      <p>2011-2012</p>
+      <p>Sold over $500K in new business development for automotive category for Cars.com.</p>
+      <h2>Education</h2>
+      <p>B.A. Business, University of Hard Knocks, 2005
+      <br />Trendy Search Engine Course Certificate, 2011</p>
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Office: Word, Excel, Powerpoint, Access, Outlook</li>
+        <li>Google Drive: Google Sheets, Google Docs, Google Slides</li>
+        <li>Google Ads, PPC, Yahoo! Ads, Bing Ads, SEO, SEM, Cars.com</li>
+        <li>HTML, CSS, Wordpress, Photoshop, Illustrator, Adobe XD</li>
+        <li>Mailchimp, Aweber, Email Marketing</li>
+      </ul>
     </div>
     <div>
         <h2>Education</h2>
@@ -124,6 +175,23 @@ For example:
     </div>
     <div id="experience">
         <h2>Experience</h2>
+        <h3>Project Manager, Acme Advertising Agency</h3>
+        <p>2012-2018</p>
+        <p>Developed sales bundles and packages for initiatives at Acme.  Helped group attain $12 million in new account sales.  Created new RVs, Motorcycle Advertising vertical.  Trained employees and helped them hit their goals 100% YOY every year.</p>
+        <h3>Inside Sales Account Executive, Acme Advertising Agency</h3>
+        <p>2011-2012</p>
+        <p>Sold over $500K in new business development for automotive category for Cars.com.</p>
+        <h2>Education</h2>
+        <p>B.A. Business, University of Hard Knocks, 2005
+        <br />Trendy Search Engine Course Certificate, 2011</p>
+        <h2>Skills</h2>
+        <ul>
+            <li>Microsoft Office: Word, Excel, Powerpoint, Access, Outlook</li>
+            <li>Google Drive: Google Sheets, Google Docs, Google Slides</li>
+            <li>Google Ads, PPC, Yahoo! Ads, Bing Ads, SEO, SEM, Cars.com</li>
+            <li>HTML, CSS, Wordpress, Photoshop, Illustrator, Adobe XD</li>
+            <li>Mailchimp, Aweber, Email Marketing</li>
+        </ul>
     </div>
     <div id="education">
         <h2>Education</h2>
@@ -146,7 +214,24 @@ Taking it one step further, we can use the `<section>` tag.  `<div>` tags are a 
         <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
     </section>
     <section id="experience">
-        <h2>Experience</h2>
+      <h2>Experience</h2>
+      <h3>Project Manager, Acme Advertising Agency</h3>
+      <p>2012-2018</p>
+      <p>Developed sales bundles and packages for initiatives at Acme.  Helped group attain $12 million in new account sales.  Created new RVs, Motorcycle Advertising vertical.  Trained employees and helped them hit their goals 100% YOY every year.</p>
+      <h3>Inside Sales Account Executive, Acme Advertising Agency</h3>
+      <p>2011-2012</p>
+      <p>Sold over $500K in new business development for automotive category for Cars.com.</p>
+      <h2>Education</h2>
+      <p>B.A. Business, University of Hard Knocks, 2005
+      <br />Trendy Search Engine Course Certificate, 2011</p>
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Office: Word, Excel, Powerpoint, Access, Outlook</li>
+        <li>Google Drive: Google Sheets, Google Docs, Google Slides</li>
+        <li>Google Ads, PPC, Yahoo! Ads, Bing Ads, SEO, SEM, Cars.com</li>
+        <li>HTML, CSS, Wordpress, Photoshop, Illustrator, Adobe XD</li>
+        <li>Mailchimp, Aweber, Email Marketing</li>
+      </ul>
     </section>
     <section id="education">
         <h2>Education</h2>
@@ -171,7 +256,24 @@ When talking about sections of a page, sometimes you want to be very specific.  
         <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
     </header>
     <section id="experience">
-        <h2>Experience</h2>
+      <h2>Experience</h2>
+      <h3>Project Manager, Acme Advertising Agency</h3>
+      <p>2012-2018</p>
+      <p>Developed sales bundles and packages for initiatives at Acme.  Helped group attain $12 million in new account sales.  Created new RVs, Motorcycle Advertising vertical.  Trained employees and helped them hit their goals 100% YOY every year.</p>
+      <h3>Inside Sales Account Executive, Acme Advertising Agency</h3>
+      <p>2011-2012</p>
+      <p>Sold over $500K in new business development for automotive category for Cars.com.</p>
+      <h2>Education</h2>
+      <p>B.A. Business, University of Hard Knocks, 2005
+      <br />Trendy Search Engine Course Certificate, 2011</p>
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Office: Word, Excel, Powerpoint, Access, Outlook</li>
+        <li>Google Drive: Google Sheets, Google Docs, Google Slides</li>
+        <li>Google Ads, PPC, Yahoo! Ads, Bing Ads, SEO, SEM, Cars.com</li>
+        <li>HTML, CSS, Wordpress, Photoshop, Illustrator, Adobe XD</li>
+        <li>Mailchimp, Aweber, Email Marketing</li>
+      </ul>
     </section>
     <section id="education">
         <h2>Education</h2>
@@ -193,7 +295,24 @@ You can also use the `<footer>` tag if you think some part of your page will alw
         <p>Phone: 000-000-0000 | Email: <a href="mailto:vmenon@email.com">vmenon@email.com</a> | <a href="https://linkedin.com">Linkedin</a></p>
     </header>
     <section id="experience">
-        <h2>Experience</h2>
+      <h2>Experience</h2>
+      <h3>Project Manager, Acme Advertising Agency</h3>
+      <p>2012-2018</p>
+      <p>Developed sales bundles and packages for initiatives at Acme.  Helped group attain $12 million in new account sales.  Created new RVs, Motorcycle Advertising vertical.  Trained employees and helped them hit their goals 100% YOY every year.</p>
+      <h3>Inside Sales Account Executive, Acme Advertising Agency</h3>
+      <p>2011-2012</p>
+      <p>Sold over $500K in new business development for automotive category for Cars.com.</p>
+      <h2>Education</h2>
+      <p>B.A. Business, University of Hard Knocks, 2005
+      <br />Trendy Search Engine Course Certificate, 2011</p>
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Office: Word, Excel, Powerpoint, Access, Outlook</li>
+        <li>Google Drive: Google Sheets, Google Docs, Google Slides</li>
+        <li>Google Ads, PPC, Yahoo! Ads, Bing Ads, SEO, SEM, Cars.com</li>
+        <li>HTML, CSS, Wordpress, Photoshop, Illustrator, Adobe XD</li>
+        <li>Mailchimp, Aweber, Email Marketing</li>
+      </ul>
     </section>
     <section id="education">
         <h2>Education</h2>
